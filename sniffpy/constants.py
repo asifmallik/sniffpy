@@ -111,7 +111,7 @@ UNKNOWN_PATTERNS = [
     [b'<?xml', b'\xff\xff\xff\xff\xff', WHITESPACE, 'text/hml']
 ]
 
-# Patterns corresponding second table in section 7.2 of specification
+# Patterns corresponding second table in section 7.1 of specification
 # TODO: Add logic to allow user to extend this table safely
 # Byte Pattern | PATTERN MASK | LEADING BYTES TO BE IGNORED | MIMETYPE
 ADDITIONAL_PATTERNS = [[b'%!PS-Adobe-',
